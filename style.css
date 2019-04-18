@@ -7,8 +7,8 @@
        overflow: hidden;
     }
 #xxx{
- 
   display: block;
+  background: white;
 }
 
 body{
@@ -47,6 +47,9 @@ body{
     margin: 10px 0;
     transition: all 0.3s;
 }
+.colors > li.black{
+	background: black;
+}
 .colors > li.red{
 	background: red;
 }
@@ -59,5 +62,23 @@ body{
 .colors > li.active{
  box-shadow: 0 0 3px rgba(0,0,0,0.95);
  transform: scale(1.2);
+}
+.sizes{
+	position: fixed;
+	right: 20px;
+	top: 10px;
+}
+.sizes > li{
+	margin: 20px 0;
+}
+.sizes > .thin{
+	height: 0;
+	width: 20px;
+	border-top: 1px solid black;
+}
+.sizes > .thick{
+	height: 0;
+	width: 20px;
+	border-top: 3px solid black;
 }
 
