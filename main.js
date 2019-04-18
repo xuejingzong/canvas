@@ -23,7 +23,7 @@ clear.onclick = function(){
 }
 download.onclick = function(){
   var url = yyy.toDataURL("image/png")
-  console.log(url)
+  //console.log(url)
   var a = document.createElement('a')
   document.body.appendChild(a)
   a.href = url
